@@ -1,3 +1,3 @@
-function main() {
-    console.log('Just some random function')
+function teste() {
+    alert('teste')
 }
