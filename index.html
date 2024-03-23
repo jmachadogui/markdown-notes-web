@@ -13,15 +13,19 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="flex">
+    <nav class="sidebar" aria-label="Documents List">
+        Documento 1
+    </nav>
     <main>
-        <div id="editor" contenteditable="true">
-            <header contenteditable="false">
-                <button type="button" onclick="addNewElement('h1')">Add H1</button>
-                <button type="button" onclick="addNewElement('h2')">Add H2</button>
-                <button type="button" onclick="addNewElement('h3')">Add H3</button>
-                <button type="button" onclick="addNewElement('p')">Add Paragraph</button>
-            </header>
+
+        <header contenteditable="false">
+            <button type="button" onclick="addNewElement('h1')">Add H1</button>
+            <button type="button" onclick="addNewElement('h2')">Add H2</button>
+            <button type="button" onclick="addNewElement('h3')">Add H3</button>
+            <button type="button" onclick="addNewElement('p')">Add Paragraph</button>
+        </header>
+        <div id="editor" contenteditable="true" class="">
             <p>Base Font Size</p>
             <p>Parágrafo segundo, testando.</p>
             <h1>Título 1</h1>
